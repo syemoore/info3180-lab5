@@ -1,3 +1,52 @@
 body {
     padding-top: 5rem;
 }
+
+input[type=text], select {
+    width: 650px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 650px;
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
+.pic{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+.info{
+    width: 400px;
+    float: right;
+}
+.profile{
+    border-radius: 25px;
+    background: gray;
+    border: 2px solid #000;
+    width: 650px;
+    padding: 20px;
+}
+.name{
+    font-size: 22px;
+    font-weight: bold;
+}
+.cdate{
+    font-size: 14px;
+}
